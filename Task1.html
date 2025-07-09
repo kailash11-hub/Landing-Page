@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Navigation Menu
+    </title>
+    <style>
+        body {
+        font-family: Arial, sans-serif;
+    background-color:rgb(250, 233, 80);
+    margin:0;
+    }
+        img {
+            float: left;
+        }
+        header{
+            
+            background-color: rgb(41, 69, 96);
+            margin:0;
+            padding:0;
+            display:flex;
+        }
+
+        .heading {
+            
+            font-weight: 1000;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 10px;
+            text-align: center;
+            margin: 0px;
+            height: 80px;
+            width:950px;
+            color:white;
+        }
+
+        .navbar {
+            padding: 10px;
+            margin: 5px;
+            background-color: rgb(188, 195, 210);
+            position: fixed;
+            margin-left: 0px;
+            left: 0;
+            height: 200vh;
+            padding-top: 10px;
+        }
+
+        ul {
+            padding: 3px;
+        }
+
+        li {
+            padding: 8px;
+            list-style-type: none;
+            border-bottom: 1px solid rgb(161, 158, 163);
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(120, 10, 237);
+
+        }
+
+        .navbar li:hover {
+            background-color: rgb(198, 243, 243);
+            color: brown;
+            cursor: pointer;
+        }
+       .navbar.scrolled {
+    background-color: rgb(176, 136, 184);
+    transition: background-color 0.3s ease;
+}
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <a href="https://skillcrafttech.com/"><img height="80px" src="logo-light.svg"></a>
+
+        <h1 class="heading">Home Page</h1>
+
+    </header>
+    <hr>
+
+    <div class="navbar">
+        <div style="text-align: center;">MENU</div>
+        <ul>
+            <li><a href="Task1.html">Home</a></li>
+            <li><a target="blank" href="service.html">Service</a></li>
+            <li><a target="blank" href="contact.html">Contact</a></li>
+            <li><a target="blank" href="about.html">About</a></li>
+        </ul>
+    </div>
+    <h1 style="text-align:center; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color:rgb(255, 145, 0);text-decoration:double;"> Welcome To SkillCraft Technology</h1>
+    <div style="padding-left:120px">
+            <h3>Crafting Success through Technology</h3>
+<p style="color:rgb(109, 55, 55)">At SkillCraft Technology, we believe in the power of skills to shape futures.<br>
+     We are not just a company; we are craftsmen of talent, architects of opportunity,<br>
+      and builders of tomorrow. Through our comprehensive suite of services,<br>
+     we empower students to hone their skills, secure valuable internships, and embark on fulfilling career journeys.</p><br>
+     <h4 style="text-align:center; color:red">Scroll Down</h4>
+               <h4 style="text-align:center">--</h4>
+               <h4 style="text-align:center">--</h4>
+               <h4 style="text-align:center">--</h4>
+               <h4 style="text-align:center">--</h4>
+               <h4 style="text-align:center">--</h4>
+               <h4 style="text-align:center">--</h4>
+               <h4 style="text-align:center">--</h4>
+               <h4 style="text-align:center">--</h4>
+               <h4 style="text-align:center">--</h4>
+               <h4 style="text-align:center">--</h4>
+               <h4 style="text-align:center">--</h4>
+               <h4 style="text-align:center">--</h4>
+               <h4 style="text-align:center">--</h4>
+               <h4 style="text-align:center">--</h4>
+               <h4 style="text-align:center">--</h4>
+               <h4 style="text-align:center">--</h4>
+               <h4 style="text-align:center">--</h4>
+               <h4 style="text-align:center">--</h4>
+               <h4 style="text-align:center">--</h4>
+    </div>
+    <script>
+    window.addEventListener('scroll', function () {
+        var navbar = document.querySelector('.navbar');
+        if (window.scrollY > 50) {
+            navbar.classList.add('scrolled');
+        } else {
+            navbar.classList.remove('scrolled');
+        }
+    });
+</script>
+</body>
+
+</html>
